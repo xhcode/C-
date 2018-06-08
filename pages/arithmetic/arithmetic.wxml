@@ -1,0 +1,11 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<view>
+<view class='headername'>{{list.name}}</view>
+	<view class="bodyhtml">
+		<view class="bodyindex">
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+      </view> 
+		</view>
+	</view>
+</view>

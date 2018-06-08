@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/funcname/funcname",
+    "pages/menu/menu",
+    "pages/arithmetic/arithmetic",
+    "pages/intellectual/intellectual"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarBackgroundColor": "#00acc2",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00acc2",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/opthome.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/regard.png",
+        "selectedIconPath": "images/optpitch.png",
+        "text": "关于"
+      }]
+  }
+}

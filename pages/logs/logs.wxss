@@ -1,0 +1,37 @@
+page{
+	background-color:#F8F8F8;
+	height:100%;
+}
+.images{
+	justify-content: center;
+	width: 100%;
+}
+.logo{
+	width: 150rpx;
+	height: 150rpx;
+	margin:60rpx auto 18rpx;
+	justify-content: center;
+	display: flex;
+}
+.logo-text{
+	color:#888888;
+	font-size:28rpx;
+	text-align: center;
+}
+.logo-text view{
+	margin-top: 10rpx;	
+}
+.index{
+	background-color: white;
+	padding: 0rpx 30rpx;
+	margin-top: 40rpx;
+}
+.index-text{
+	padding: 25rpx 0rpx;
+}
+.index-texts{
+	padding: 25rpx 0rpx;
+}
+button{
+	background-color: white;
+}

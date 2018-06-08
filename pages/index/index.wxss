@@ -1,0 +1,51 @@
+.body{
+	width: 93%;
+	justify-content: center;
+	margin: 0 auto;
+}
+.images{
+	width: 93%;
+	margin: 50rpx auto;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+.navigator-text{
+	flex:1;
+}
+.navigator{
+	display: inline-block;
+	display:flex;
+	flex: 1;
+
+	align-items:center;
+  height:120rpx;
+
+
+}
+.navigator-images{
+	display: inline-block;
+	width:60rpx;
+	height:60rpx;
+
+	overflow:hidden;
+}
+.app{
+	width:60rpx;
+	height:60rpx;
+	display:inline-block;
+	overflow:hidden;
+}
+.navigator-title{
+	color:#888888;
+	font-size:38rpx;
+	line-height: 2;
+}
+.text{
+	color:#888888;
+	font-size:28rpx;
+
+}
+.bodyindex{
+  margin-bottom: 10px;
+}

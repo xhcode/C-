@@ -1,0 +1,32 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<view>
+	<view class="headerindex">
+		<view class="headertext">{{info}}</view>
+	</view>
+	<view class="bodyindex">
+		<view class="list-body">
+			<block wx:for="{{list}}" wx:for-item="item" wx:for-index="name" >
+				<view class="kind-list" bindtap="click" id="{{name}}">
+					<view class="kind-list-name {{open[name]?'kind-list-newname':''}}">
+						<view class="kind-list-text ">{{name}}</view>
+						<image class="kind-list-image {{open[name]?'bc-img':''}}" src="../../images/arrow.png"></image>
+					</view>
+          
+					<view class="kind-list-id">
+						<view class="navigator-box  {{open[name]?'bc-red':''}}">
+							<block wx:for="{{item}}" wx:for-index="id" wx:for-item="funname">
+								<navigator class="navigator" url="../{{index}}/{{index}}?id={{funname.id}}&index={{index}}">
+									<view class="navigator-text">{{funname.name}}</view>
+									<image class="navigator-images" src="../../images/arrows.png"></image>
+								</navigator>
+							</block>
+						</view>
+					</view>
+				</view>
+			</block>
+		</view>
+	</view>
+  <view class="results" bindtap="copyCode">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+</view>

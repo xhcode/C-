@@ -1,0 +1,53 @@
+
+.bodyhtml{
+	margin: 20rpx 30rpx;
+}
+.bodyname{
+	font-size:35rpx;
+	line-height:1.6;
+	color: #69C;
+	font-family: "Proxima N W15 Light",Helvetica,Arial,Sans-Serif;	
+	margin-bottom: 20rpx;
+}
+.bodyindex{
+	padding: 20rpx 10rpx;
+	border-bottom: 3px solid #F8F8F8;
+	margin-bottom: 20rpx;
+}   
+.bodyindex{
+	color:#888888;
+	font-size:28rpx;
+}
+.bodytext{
+	margin-bottom: 5rpx;
+	font-size: 15px;
+	line-height: 1.8;
+}
+.headername{
+	padding: 15px 15px;
+	padding: 15px 15px;
+	border-bottom: 3px dashed #F8F8F8;
+	font-size: 45rpx;
+}
+.bodyname-mix{
+	margin: 25rpx 0rpx 10rpx 5rpx;
+	font-size: 30rppx;
+	color: #454545;
+	padding: 0rpx 15rpx;
+
+}
+.bodyresult{
+	background: #272822;
+	padding: 10rpx 10rpx 30rpx 30rpx;
+	color: #DDD;
+	border-radius: 8px !important;
+}
+.bodytext-state{
+	background: #666;
+	padding: 10rpx 10rpx 30rpx 30rpx;
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	border-radius: 8px !important;
+}
+@import "../../wxParse/wxParse.wxss";
+@import "../common/code.wxss";

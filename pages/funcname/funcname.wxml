@@ -1,0 +1,52 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<view>
+<view class='headername'>{{list.name}}</view>
+	<view class="bodyhtml">
+		<view class="bodyindex">
+			<view class="bodyname">【函数功能】</view>
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:functionread.nodes}}"/>
+      </view> 
+		</view>
+		<view class="bodyindex">
+			<view class="bodyname">【函数头文件】</view>
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:headerfile.nodes}}"/>
+      </view>
+		</view>
+		<view class="bodyindex">
+			<view class="bodyname">【函数定义】</view>
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:definitio.nodes}}"/>
+      </view>
+		</view>
+		<view class="bodyindex">
+			<view class="bodyname">【函数参数】</view>
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:parameterization.nodes}}"/>
+      </view>
+		</view>
+		<view class="bodyindex">
+			<view class="bodyname">【函数返回值】</view>
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:returnvalue.nodes}}"/>
+      </view>
+		</view>
+		<view class="bodyindex">
+			<view class="bodyname">【函数范例】</view>
+			<view class="bodytext">
+        <template is="wxParse" data="{{wxParseData:example.nodes}}"/>
+      </view>
+			<view class="bodyname-mix">执行结果:</view>
+			<view class="bodyresult">
+        <template is="wxParse" data="{{wxParseData:result.nodes}}"/>
+      </view>
+		</view>
+		<view class="bodyindex" wx:if="{{length}}">
+			<view class="bodyname">【函数说明】</view>
+			<view class="bodytext-state">
+        <template is="wxParse" data="{{wxParseData:state.nodes}}"/>
+      </view>
+		</view>
+	</view>
+</view>

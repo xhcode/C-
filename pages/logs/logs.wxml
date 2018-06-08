@@ -1,0 +1,27 @@
+<view>
+  <view class='header'>
+    <view class='images'>
+      <image class='logo' src="../../images/logo.png"></image>
+    </view>
+    <view class='logo-text'>
+      <view class='logo-textone'>C语言标准库</view>
+      <view class='logo-textone'>v1.0.11</view>
+    </view>
+  </view>
+  <view class='index'>
+    <view>
+    	<view class='index-text'>
+        <button type="default" bindtap="sites">参考网站</button>
+      </view>
+    	<view class='index-text'>
+        <button type="default" bindtap="gson">开源项目</button>
+      </view>
+    	<view class='index-text'>
+        <button type="default" bindtap="github">Github</button>
+      </view>
+    	<view class='index-texts'>
+        <button type="default" bindtap="developer">开发者信息</button>
+      </view>
+    </view>
+  </view>
+</view>

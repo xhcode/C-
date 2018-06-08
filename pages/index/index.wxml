@@ -1,0 +1,39 @@
+<view class="main">
+	<view class="header">
+		<view class="image">
+			<image src="../../images/logo-home.png" class="images"></image>
+		</view>
+	</view>
+	<view class="body">
+		<navigator class="bodyindex"  url="../menu/menu?id=intellectual">
+			
+			<view class='navigator'>
+				<view class='navigator-text'>
+					<view class="navigator-title">简明教程</view>
+					<view class="text">语言重要基础知识</view>
+				</view>
+				<image class="navigator-images" src="../../images/arrows.png"></image>
+			</view>
+		</navigator>	
+		<navigator class="bodyindex"  url="../menu/menu?id=funcname">
+			<view class='navigator'>
+				<view class='navigator-text'>
+					<view class="navigator-title">函数速查</view>
+					<view class="text">包括近200个常用函数供参考学习</view>
+				</view>
+				<image class="navigator-images" src="../../images/arrows.png"></image>
+			</view>
+		</navigator>
+		<navigator class="bodyindex"  url="../menu/menu?id=arithmetic">
+	
+			<view class='navigator'>
+				<view class='navigator-text'>
+					<view class="navigator-title" >常用算法</view>
+					<view class="text">涉及常用的数据结构及经典算法</view>
+				</view>
+				<image class="navigator-images" src="../../images/arrows.png"></image>
+			</view>
+		</navigator>
+	</view>
+</view>
+
